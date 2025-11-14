@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Movie } from "../../../types/movie";
+import { Movie } from "@/types/movie";
 
 export default function MovieRow({ movies, categoryTitle }: { movies: Movie[]; categoryTitle: string }) {
   return (
